@@ -48,14 +48,15 @@
 export default {
  data() {
       return {
-        selected: '',
+        selected: 'И',
         
       }
     },
   computed: {
-    operand() {
-      return this.$store.state.operand
-    }
+    // operand() {
+    //   // let selected = this.$store.state.operand
+    //   return this.$store.getters.OPERAND
+    // }
   },
   
 
@@ -67,7 +68,10 @@ export default {
       
       this.$router.push("/Interview")
     }    
-  }
+  },
+
+  
+  
  
 }  
 </script>

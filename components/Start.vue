@@ -33,11 +33,15 @@
           Черные списки
       </nuxt-link>
         <br>
+      <div v-if="$store.state.operand">  
       <nuxt-link to="/Call">
         <img width="36" height="36" src="../assets/phone.svg" alt="interview">
-        <br>
+        <br >
           Колл-центр
+          <br>
+          
       </nuxt-link>
+      </div>
     </div>
 
     </div>
@@ -48,7 +52,10 @@
 </template>
 
 <script>
-export default {}
+export default {
+
+
+}
 </script>
 
 <style>

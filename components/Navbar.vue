@@ -19,6 +19,11 @@
     </nuxt-link>
   </li>
   <li>
+    <nuxt-link   to="/Conditions">
+      Условия
+    </nuxt-link>
+  </li>
+  <li>
     <nuxt-link class="active"  to="/">
               Респонденты
      </nuxt-link>
@@ -39,7 +44,7 @@ export default {
 li{
   
   display: inline-block;
-  width: 200px;
+  width: 150px;
   list-style-type: none;
 
 }
@@ -53,7 +58,7 @@ li{
 
   }  
 
-  .active{
+  a:active{
     text-decoration-line: underline;
   }
 
